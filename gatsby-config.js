@@ -1,68 +1,64 @@
-const userConfig = require('./config');
-
 module.exports = {
   siteMetadata: {
-    title: userConfig.title,
-    author: userConfig.author,
-    description: userConfig.description,
-    siteUrl: userConfig.siteUrl,
+    title: `Alejandro Mantilla`,
+    description: `My user website. Some might even call it a CV.`,
+    author: `Alejandro Mantilla`
   },
-  pathPrefix: userConfig.pathPrefix,
   plugins: [
+    `gatsby-plugin-typescript`,
+    `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `${__dirname}/src/pages`,
-        name: 'pages',
-      },
+        name: `images`,
+        path: `${__dirname}/src/assets/images`
+      }
     },
     {
-      resolve: `gatsby-transformer-remark`,
+      resolve: `gatsby-source-filesystem`,
       options: {
-        excerpt_separator: `<!-- end -->`,
+        name: `content`,
+        path: `${__dirname}/src/data`
+      }
+    },
+    {
+      resolve: 'gatsby-transformer-remark',
+      options: {
         plugins: [
           {
-            resolve: `gatsby-remark-images`,
+            resolve: 'gatsby-remark-images',
             options: {
-              maxWidth: 700,
-              linkImagesToOriginal: false,
-              wrapperStyle: 'margin: 15px -30px !important',
-            },
-          },
-          {
-            resolve: `gatsby-remark-responsive-iframe`,
-            options: {
-              wrapperStyle: `margin-bottom: 1.0725rem`,
-            },
-          },
-          'gatsby-remark-prismjs',
-          'gatsby-remark-copy-linked-files',
-          'gatsby-remark-smartypants',
-        ],
-      },
+              maxWidth: 768,
+              linkImagesToOriginal: false
+            }
+          }
+        ]
+      }
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
-      resolve: `gatsby-plugin-google-analytics`,
-      options: {
-        //trackingId: `ADD YOUR TRACKING ID HERE`,
-      },
-    },
-    `gatsby-plugin-feed`,
-    {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: userConfig.title,
-        short_name: userConfig.title,
-        start_url: userConfig.siteUrl,
-        background_color: '#fff',
-        theme_color: userConfig.primaryColor,
-        display: 'minimal-ui',
-        icon: 'src/main.jpg',
-      },
+        name: `gatsby-personal-website-starter`,
+        short_name: `starter`,
+        start_url: `/`,
+        background_color: `#ed64a6`,
+        theme_color: `#ed64a6`,
+        display: `minimal-ui`,
+        icon: `src/assets/images/gatsby-icon.png`
+      }
     },
     `gatsby-plugin-offline`,
-    `gatsby-plugin-react-helmet`,
-  ],
+    `gatsby-plugin-styled-components`,
+    `gatsby-plugin-postcss`,
+    `gatsby-plugin-tailwindcss`,
+    {
+      resolve: `gatsby-plugin-purgecss`,
+      options: {
+        tailwind: true,
+        purgeOnly: [`src/assets/styles/global.css`]
+      }
+    }
+  ]
 };
