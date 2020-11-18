@@ -12,16 +12,24 @@ const Footer = () => (
           GitHub
         </Styled.Link>
         <Styled.Link
-          href="https://github.com/SaimirKapaj/gatsby-markdown-personal-website"
+          href="https://github.com/MantiMantilla"
           rel="noreferrer noopener"
           target="_blank"
         >
           Twitter
         </Styled.Link>
-        <Styled.Link href="/" rel="noreferrer noopener" target="_blank">
-          Behance
+        <Styled.Link
+	  href="https://twitter.com/MantiMantilla"
+	  rel="noreferrer noopener"
+	  target="_blank"
+	>
+          LinkedIn
         </Styled.Link>
-      </Styled.Links>
+        <Styled.Link
+	  href="https://www.linkedin.com/in/alejandro-mantilla-49183b195/"
+	  rel="noreferrer noopener"
+	  target="_blank"
+	>
     </Container>
   </Styled.Footer>
 );

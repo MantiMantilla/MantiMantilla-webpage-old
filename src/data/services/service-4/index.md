@@ -1,6 +1,6 @@
 ---
 category: 'services'
-title: 'Digital Marketing'
+title: 'Mathematical Models and Optimization'
 icon: 'bullhorn'
-description: 'Mauris neque libero, aliquet vel mollis nec, euismod sed tellus. Mauris convallis dictum elit id volutpat.'
+description: 'Though an industrial engineer at first glance, I take great interest in algorithms and computational mathematics, particularly so, in the field of operations research. Most of my technology stack I've built around the software that enables mathematical modeling such as mixed-integer programming in Python or statistics and stochastic dynamic programming for R.'
 ---

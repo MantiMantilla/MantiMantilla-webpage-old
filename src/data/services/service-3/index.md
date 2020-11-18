@@ -1,6 +1,6 @@
 ---
 category: 'services'
-title: 'Copywrite'
+title: 'Data Science and Engineering'
 icon: 'edit'
-description: 'Mauris neque libero, aliquet vel mollis nec, euismod sed tellus. Mauris convallis dictum elit id volutpat.'
+description: 'Most of my background in data science I have my major in college to thank for. Though statistics in software like Python and R is one of the biggest components in my data tool belt, I've also spent considerable time learning tools like MSSQL and MongoDB which led me down the path of business intelligence.'
 ---
