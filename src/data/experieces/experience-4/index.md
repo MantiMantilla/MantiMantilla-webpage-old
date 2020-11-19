@@ -1,9 +1,9 @@
 ---
 category: 'experiences'
-company: 'Netlify'
-position: 'Senior Frontend Developer'
-startDate: 'Jun 2015'
-endDate: 'Jan 2018'
+company: 'Your Company'
+position: 'Cool dev guy'
+startDate: 'Soon'
+endDate: 'Not so soon'
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Since I'm close to graduating, I'm actively looking for a job, preferably, as a developer. Do consider. I could be a valuable addition to your team!

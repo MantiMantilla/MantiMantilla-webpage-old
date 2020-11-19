@@ -1,11 +1,9 @@
 ---
 category: 'experiences'
-company: 'Aizoon Reply'
-position: 'UI/UX Designer'
-startDate: 'Jan 2011'
-endDate: 'May 2013'
+company: 'Universidad de los Andes'
+position: 'Tutoring and Class Monitoring'
+startDate: 'Aug 2017'
+endDate: 'Ongoing'
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+It would happen that people who were struggling with math and programming would come to me for help. I soon became a private tutor for subjects in applied math and computation. I later got hired by the university to do class monitoring.

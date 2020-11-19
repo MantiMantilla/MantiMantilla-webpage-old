@@ -1,9 +1,9 @@
 ---
 category: 'experiences'
-company: 'Facebook'
-position: 'Frontend Developer'
-startDate: 'May 2013'
-endDate: 'Jun 2015'
+company: 'Intel'
+position: 'BI and Data Engineering'
+startDate: 'Aug 2020'
+endDate: 'Jan 2020'
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Internship for the Americas branded sales team. My job was to ETL sales and budget databases for visualization. I set up data-viz and web tools, servers to host proprietary databases, and CI/CD workflows to automate ETL procedures.

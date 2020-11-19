@@ -14,6 +14,8 @@ const HeroBanner = () => {
           content
           linkTo
           linkText
+          linkTo2
+          linkText2
         }
       }
     }
@@ -28,6 +30,8 @@ const HeroBanner = () => {
       content={heroBanner.content}
       linkTo={heroBanner.linkTo}
       linkText={heroBanner.linkText}
+      linkTo2={heroBanner.linkTo2}
+      linkText2={heroBanner.linkText2}
     />
   );
 };
@@ -37,7 +41,9 @@ HeroBanner.propTypes = {
   subtitle: PropTypes.string.isRequired,
   content: PropTypes.string.isRequired,
   linkTo: PropTypes.string.isRequired,
-  linkText: PropTypes.string.isRequired
+  linkText: PropTypes.string.isRequired,
+  linkTo2: PropTypes.string.isRequired,
+  linkText2: PropTypes.string.isRequired
 };
 
 export default HeroBanner;

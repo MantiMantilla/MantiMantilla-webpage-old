@@ -1,9 +1,9 @@
 ---
 category: 'experiences'
-company: 'Forge Inc'
-position: 'UI/UX Designer'
-startDate: 'Mar 2010'
-endDate: 'Dec 2010'
+company: 'Chivorkite'
+position: 'Kitesurfing Instructor'
+startDate: 'Dec 2016'
+endDate: 'Dec 2017'
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+I would spend most of my weekends and holidays at a lake, near where I live, teaching kitesurfing to guests at a hostel. The job taught me several things about how to handle myself and how to manage others.

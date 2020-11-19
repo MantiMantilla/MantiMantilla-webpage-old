@@ -1,9 +1,9 @@
 ---
 category: 'education'
-university: 'Stanford University'
-degree: 'Master of Science'
-startDate: 'Oct 2008'
-endDate: 'Jul 2010'
+university: 'Universidad de los Andes'
+degree: 'Minor in Mathematics'
+startDate: 'Aug 2019'
+endDate: 'Jul 2021'
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laborist.
+As I realized my affinity for mathematics I enrolled in extra credits to earn my minor in mathematics degree.

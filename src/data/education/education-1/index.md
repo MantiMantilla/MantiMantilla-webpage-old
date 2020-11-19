@@ -1,9 +1,9 @@
 ---
 category: 'education'
-university: 'Columbia University'
-degree: 'Bachelor'
-startDate: 'Oct 2005'
-endDate: 'Jul 2008'
+university: 'Universidad de los Andes'
+degree: 'Bachelor of Science'
+startDate: 'Jan 2017'
+endDate: 'Jul 2021'
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Went to university hoping to become an industrial engineer and focus on finances. I soon realized that I'm much more passionate about programming and software development. Expected to graduate with a 3.8 GPA.

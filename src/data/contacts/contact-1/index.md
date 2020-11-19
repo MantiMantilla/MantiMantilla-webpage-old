@@ -1,6 +1,6 @@
 ---
 category: 'contact'
-title: 'Phone'
+title: 'Twitter'
 icon: 'phone'
-content: '+122 334 888 323'
+content: '@MantiMantilla'
 ---

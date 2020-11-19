@@ -1,10 +1,10 @@
 ---
 category: 'blog'
 cover: './cover.jpg'
-title: 'Blog Post 5'
-description: 'Mauris neque libero, aliquet vel mollis nec, euismod sed tellus. Mauris convallis dictum elit id volutpat.'
-date: '2020-02-03'
-tags: ['Mobile', 'React Native']
+title: 'Set Up Your Conda Environments NOW! < WIP >'
+description: 'Data scientists, Web Developers, Enthusiasts. Use Conda to set up any environment you might need and free yourself from dependency incompatibility hell.'
+date: '2021-02-03'
+tags: ['Python', 'Conda', 'R', 'Node.js', 'npm']
 published: true
 ---
 

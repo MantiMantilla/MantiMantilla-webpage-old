@@ -14,11 +14,13 @@ const mainNavItems = [
   {
     title: 'Blog',
     slug: '/blog/'
-  },
+  }//,
+  /*
   {
     title: 'Contact Me',
     slug: '/contact/'
   }
+  */
 ];
 
 const MainNav = () => {

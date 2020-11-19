@@ -15,20 +15,28 @@ const Footer = () => (
         >
           GitHub
         </Styled.Link>
-	<Styled.Link
-	  href="https://twitter.com/MantiMantilla"
-	  rel="noreferrer noopener"
-	  target="_blank"
+        <Styled.Link
+          href="https://twitter.com/MantiMantilla"
+          rel="noreferrer noopener"
+          target="_blank"
 	>
           Twitter
         </Styled.Link>
         
-	<Styled.Link
-	  href="https://www.linkedin.com/in/alejandro-mantilla-49183b195/"
-	  rel="noreferrer noopener"
-	  target="_blank"
-	>
+        <Styled.Link
+          href="https://www.linkedin.com/in/alejandro-mantilla-49183b195/"
+          rel="noreferrer noopener"
+          target="_blank"
+        >
           LinkedIn
+        </Styled.Link>
+
+        <Styled.Link
+          href=""
+          rel="noreferrer noopener"
+          target="_blank"
+        >
+          Download my resume
         </Styled.Link>
         
       </Styled.Links>

@@ -1,10 +1,10 @@
 ---
 category: 'blog'
 cover: './cover.jpg'
-title: 'Blog Post 4'
-description: 'Mauris neque libero, aliquet vel mollis nec, euismod sed tellus. Mauris convallis dictum elit id volutpat.'
-date: '2020-01-21'
-tags: ['Web Design', 'UX/UI']
+title: "Personalize your GitHub Profile's Landing Page < WIP >"
+description: "Often you'll be looking at a user's profile looking for that one important repo among the hundreds. What if that user were you? Let's make our profile a welcoming space."
+date: '2020-12-29'
+tags: ['GitHub', 'Markdown']
 published: true
 ---
 

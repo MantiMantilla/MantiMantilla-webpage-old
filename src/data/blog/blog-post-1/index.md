@@ -1,10 +1,10 @@
 ---
 category: 'blog'
 cover: './cover.jpg'
-title: 'Blog Post 1'
-description: 'Mauris neque libero, aliquet vel mollis nec, euismod sed tellus. Mauris convallis dictum elit id volutpat.'
-date: '2019-11-13'
-tags: ['Photography']
+title: "Static Sites With Jupyter Book < WIP >"
+description: "We built a static site, available online, of easily accessible interactive course content. Here's how you can do this yourself."
+date: '2020-11-20'
+tags: ['Python','Jupyter','Markdown']
 published: true
 ---
 

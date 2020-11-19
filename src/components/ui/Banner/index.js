@@ -8,7 +8,7 @@ import TitleSection from 'components/ui/TitleSection';
 
 import * as Styled from './styles';
 
-const Banner = ({ title, subtitle, content, linkTo, linkText }) => (
+const Banner = ({ title, subtitle, content, linkTo, linkText, linkTo2, linkText2 }) => (
   <Styled.Banner>
     <Container section>
       <TitleSection title={title} subtitle={subtitle} />
