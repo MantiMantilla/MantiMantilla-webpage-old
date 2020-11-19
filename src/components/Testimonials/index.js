@@ -34,6 +34,7 @@ const Testimonials = () => {
                   }
                 }
               }
+              profile
             }
           }
         }
@@ -53,7 +54,7 @@ const Testimonials = () => {
             const {
               id,
               html,
-              frontmatter: { cover, title }
+              frontmatter: { cover, title, profile }
             } = item.node;
 
             return (
@@ -61,7 +62,7 @@ const Testimonials = () => {
                 <Styled.Image>
                   <Img fluid={cover.childImageSharp.fluid} alt={title} />
                 </Styled.Image>
-                <Styled.Title>{title}</Styled.Title>
+                <Styled.Title><a href={profile}>{title}</a></Styled.Title>
                 <FormatHtml content={html} />
               </Styled.Testimonial>
             );
