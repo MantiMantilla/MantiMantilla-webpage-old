@@ -36,7 +36,7 @@ const Footer = () => (
           rel="noreferrer noopener"
           target="_blank"
         >
-          Download my resume
+          PDF Resume
         </Styled.Link>
         
       </Styled.Links>
