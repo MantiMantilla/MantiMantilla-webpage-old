@@ -32,7 +32,7 @@ const Footer = () => (
         </Styled.Link>
 
         <Styled.Link
-          href=""
+          href="https://github.com/MantiMantilla/MantiMantilla.github.io/raw/main/src/assets/CV/Curriculum%20Vitae%20(English%20Ver.).pdf"
           rel="noreferrer noopener"
           target="_blank"
         >
