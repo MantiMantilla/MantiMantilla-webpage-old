@@ -52,7 +52,7 @@ module.exports = {
         icons: [
           {
             "src":"/images/gatsby-icon.png",
-            "sizes":"200x200",
+            "sizes":"512x512",
             "type": "image/png",
             "purpose": "any maskable"
           }
