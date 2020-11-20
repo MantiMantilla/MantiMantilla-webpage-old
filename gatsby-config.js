@@ -51,7 +51,7 @@ module.exports = {
         icon: "src/assets/images/gatsby-icon.png",
         icons: [
           {
-            "src":"src/assets/images/gatsby-icon.png",
+            "src":"/images/gatsby-icon.png",
             "sizes":"200x200",
             "type": "image/png",
             "purpose": "any maskable"
