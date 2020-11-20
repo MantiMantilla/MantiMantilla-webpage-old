@@ -16,6 +16,10 @@ const Banner = ({ title, subtitle, content, linkTo, linkText, linkTo2, linkText2
       <Link to={linkTo}>
         <Button primary>{linkText}</Button>
       </Link>
+      <p>&nbsp;&nbsp;</p>
+      <Link to={linkTo2}>
+        <Button primary>{linkText2}</Button>
+      </Link>
     </Container>
   </Styled.Banner>
 );
