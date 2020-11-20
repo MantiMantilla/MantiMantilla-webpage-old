@@ -2,7 +2,9 @@ module.exports = {
   siteMetadata: {
     title: `Alejandro Mantilla`,
     description: `My user website. Some might even call it a CV.`,
-    author: `MantiMantilla`
+    author: `MantiMantilla`,
+    url: "https://mantimantilla.github.io",
+    twitterUsername: "@mantimantilla"
   },
   plugins: [
     `gatsby-plugin-typescript`,
@@ -46,7 +48,14 @@ module.exports = {
         background_color: `#ed64a6`,
         theme_color: `#ed64a6`,
         display: `minimal-ui`,
-        icon: `src/assets/images/gatsby-icon.png`
+        icon: [
+          {
+            "src":"src/assets/images/gatsby-icon.png",
+            "sizes":"200x200",
+            "type": "image/png",
+            "purpose": "any maskable"
+          }
+        ]
       }
     },
     `gatsby-plugin-offline`,

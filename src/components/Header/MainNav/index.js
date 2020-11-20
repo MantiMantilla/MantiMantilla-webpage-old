@@ -40,7 +40,7 @@ const MainNav = () => {
           </Styled.MainNavItem>
         ))}
       </Styled.MainNav>
-      <Styled.ToogleMainNav open={open} onClick={() => setOpen(!open)}>
+      <Styled.ToogleMainNav open={open} onClick={() => setOpen(!open)} aria-label="Toggle navigation menu">
         <span />
         <span />
         <span />
