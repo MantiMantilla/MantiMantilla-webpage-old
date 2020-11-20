@@ -13,13 +13,13 @@ const Banner = ({ title, subtitle, content, linkTo, linkText, linkTo2, linkText2
     <Container section>
       <TitleSection title={title} subtitle={subtitle} />
       <Styled.Content>{content}</Styled.Content>
-      <Link to={linkTo}>
-        <Button primary>{linkText}</Button>
-      </Link>
-      <p>&nbsp;&nbsp;<br></br></p>
-      <a href={linkTo2}>
-        <Button primary>{linkText2}</Button>
-      </a>
+        <Link to={linkTo}>
+          <Button primary>{linkText}</Button>
+        </Link>
+        <p>&nbsp;&nbsp;<br></br>&nbsp;&nbsp;</p>
+        <a href={linkTo2}>
+          <Button primary>{linkText2}</Button>
+        </a>
     </Container>
   </Styled.Banner>
 );
