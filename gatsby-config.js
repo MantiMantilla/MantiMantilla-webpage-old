@@ -48,7 +48,8 @@ module.exports = {
         background_color: `#ed64a6`,
         theme_color: `#ed64a6`,
         display: `minimal-ui`,
-        icon: [
+        icon: "src/assets/images/gatsby-icon.png",
+        icons: [
           {
             "src":"src/assets/images/gatsby-icon.png",
             "sizes":"200x200",
