@@ -17,7 +17,7 @@ const Banner = ({ title, subtitle, content, linkTo, linkText, linkTo2, linkText2
         <Button primary>{linkText}</Button>
       </Link>
       <p>&nbsp;&nbsp;<br></br></p>
-      <a to={linkTo2}>
+      <a href={linkTo2}>
         <Button primary>{linkText2}</Button>
       </a>
     </Container>
