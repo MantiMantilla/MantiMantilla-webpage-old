@@ -61,7 +61,17 @@ const SEO = ({ description, lang, meta, title }) => {
           content: metaDescription
         }
       ].concat(meta)}
-    />
+    >
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-PHR3L63QNF"></script>
+      <script>
+        {`
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments)}
+        gtag('js', new Date());
+        gtag('config', 'G-PHR3L63QNF');
+        `}
+      </script>
+    </Helmet>
   );
 };
 
