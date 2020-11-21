@@ -72,8 +72,6 @@ const SEO = ({ description, lang, meta, title }) => {
         gtag('config', 'G-PHR3L63QNF');
         `}
       </script>
-      {/*Google Adsense Script*/}
-      <script data-ad-client="ca-pub-7391945618852590" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
     </Helmet>
   );
 };
