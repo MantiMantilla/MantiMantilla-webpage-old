@@ -8,6 +8,7 @@ module.exports = {
   },
   plugins: [
     `gatsby-plugin-typescript`,
+    `gatsby-plugin-sitemap`,
     `gatsby-plugin-dark-mode`,
     `gatsby-plugin-react-helmet`,
     {
