@@ -1,0 +1,27 @@
+Site TODOs
+- Add 'Projects' tab
+	- Shiny webapp
+	- All current websites
+	- Blog to Link to github profile exclusively
+- Write blogs and change pictures (get into photography?)
+- Enable 'Contact Me' in body
+- Work on SEO.performance
+- Purchase domain
+	- mantimantilla.dev
+	- mantimantilla.com
+	- mantimantilla.io
+- Add 'Report site issues' button
+- Add dark theme toggle
+
+Migrate all code content to GitHub.
+- LaTeX files
+- Python scripts
+- Excel docs
+- 
+
+
+Blog Ideas
+- How to build a website with R (shiny)
+- Enabling Google Analytics 4.0 in your gatsby site
+- SEO optimization for Gatsby PWAs
+- 
