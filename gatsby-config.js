@@ -4,6 +4,7 @@ module.exports = {
     description: `My user website. Some might even call it a CV.`,
     author: `MantiMantilla`,
     url: "https://mantimantilla.github.io",
+    siteUrl: "https://mantimantilla.github.io",
     twitterUsername: "@mantimantilla"
   },
   plugins: [
