@@ -4,10 +4,9 @@ const HeadComponents = [
     /*Google Analytics Scripts (Google Search Console)*/
     <script
         async
-        src="https://www.googletagmanager.com/gtag/js?id=G-PHR3L63QNF">
-    </script>,
+        src="https://www.googletagmanager.com/gtag/js?id=G-PHR3L63QNF"/>,
     <script>
-        window.dataLayer = window.dataLayer || [];
+        let dataLayer = window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments)}
         gtag('js', new Date());
         gtag('config', 'G-PHR3L63QNF');
@@ -16,8 +15,7 @@ const HeadComponents = [
     <script
         data-ad-client="ca-pub-7391945618852590"
         async
-        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js">
-    </script>
+        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"/>
 ]
 
 exports.onRenderBody = ({ setHeadComponents }, pluginOptions) => {
