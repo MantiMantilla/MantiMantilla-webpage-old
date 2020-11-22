@@ -49,6 +49,7 @@ module.exports = {
         short_name: `Blog`,
         start_url: `/`,
         scope: "/",
+        display: "fullscreen",
         background_color: `#ed64a6`,
         theme_color: `#ed64a6`,
         display: `minimal-ui`,
