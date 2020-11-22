@@ -49,10 +49,9 @@ module.exports = {
         short_name: `Blog`,
         start_url: `/`,
         scope: "/",
-        display: "standalone",
+        display: "fullscreen",
         background_color: `#ed64a6`,
         theme_color: `#ed64a6`,
-        display: `minimal-ui`,
         icon: "src/assets/images/gatsby-icon.png",
         icons: [
           {
