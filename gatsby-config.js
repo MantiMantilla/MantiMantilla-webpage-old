@@ -48,6 +48,7 @@ module.exports = {
         name: "MantiMantilla's Blog",
         short_name: `Blog`,
         start_url: `/`,
+        scope: "/",
         background_color: `#ed64a6`,
         theme_color: `#ed64a6`,
         display: `minimal-ui`,
