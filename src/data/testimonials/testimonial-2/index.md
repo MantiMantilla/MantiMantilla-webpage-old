@@ -5,4 +5,4 @@ title: "Alfaima Solano - Uniandes"
 profile: "https://www.linkedin.com/in/alfaimasolano/"
 ---
 
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+This is placeholder text for an actual testimonial by this person. You're seeing this because we haven't submitted our changes.
