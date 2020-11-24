@@ -64,12 +64,47 @@ const SEO = ({ description, lang, meta, title }) => {
     >
       {/*Google Analytics Scripts (Google Search Console)*/}
       <script async src="https://www.googletagmanager.com/gtag/js?id=G-PHR3L63QNF"></script>
+      <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.1/cookieconsent.min.css" />
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.1/cookieconsent.min.js" data-cfasync="false"></script>
       <script>
         {`
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments)}
-        gtag('js', new Date());
-        gtag('config', 'G-PHR3L63QNF');
+        window.addEventListener('load', function(){
+          window.cookieconsent.initialise({
+          revokeBtn: "<div class='cc-revoke'></div>",
+          type: "opt-in",
+          position: "top",
+          static: true,
+          theme: "edgeless",
+          palette: {
+              popup: {
+                  background: "#f7fafc",
+                  text: "#3c366b"
+                },
+              button: {
+                  background: "#ed64a6",
+                  text: "#fff"
+                }
+            },
+          content: {
+              message: "This website uses cookies to ensure you get the best experience on our website.",
+              link: "Cookie notice",
+              href: "https://2gdpr.com/cookies"
+            },
+            onInitialise: function(status) {
+              if(status == cookieconsent.status.allow) myScripts();
+            },
+            onStatusChange: function(status) {
+              if (this.hasConsented()) myScripts();
+            }
+          })
+        });
+
+        function myScripts() {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments)}
+          gtag('js', new Date());
+          gtag('config', 'G-PHR3L63QNF');
+        }
         `}
       </script>
     </Helmet>
