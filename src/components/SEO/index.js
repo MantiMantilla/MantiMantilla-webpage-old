@@ -100,10 +100,24 @@ const SEO = ({ description, lang, meta, title }) => {
         });
 
         function myScripts() {
+          // Google Tag Manager
+          
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments)}
           gtag('js', new Date());
           gtag('config', 'G-PHR3L63QNF');
+        
+          // Google Adsense
+          
+          var src="https://pagead2.googlesyndication.com.co/pagead/js/adsbygoogle.js";
+          var newScript = document.createElement("script");
+          newScript.type = "text/javascript";
+          newScript.setAttribute("async", "true");
+          newScript.setAttribute("src", src);
+          newScript.setAttribute("data-ad-client", ca-pub-7391945618852590);
+          document.head.appendChild(newScript);
+          Function(newScript);
+          
         }
         `}
       </script>
