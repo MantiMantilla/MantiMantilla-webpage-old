@@ -86,8 +86,8 @@ const SEO = ({ description, lang, meta, title }) => {
                 }
             },
           content: {
-              message: "This website uses cookies to ensure you get the best experience on our website.",
-              link: "Cookie notice",
+              message: "This website uses cookies to ensure you get the best experience.",
+              link: "GDPR Cookie Compliance notice",
               href: "https://2gdpr.com/cookies"
             },
             onInitialise: function(status) {
@@ -114,7 +114,7 @@ const SEO = ({ description, lang, meta, title }) => {
           newScript.type = "text/javascript";
           newScript.setAttribute("async", "true");
           newScript.setAttribute("src", src);
-          newScript.setAttribute("data-ad-client", ca-pub-7391945618852590);
+          newScript.setAttribute("data-ad-client", "ca-pub-7391945618852590");
           document.head.appendChild(newScript);
           Function(newScript);
           
