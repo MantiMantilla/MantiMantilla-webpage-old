@@ -115,10 +115,13 @@ const SEO = ({ description, lang, meta, title }) => {
           newScript.setAttribute("async", "true");
           newScript.setAttribute("src", src);
           newScript.setAttribute("data-ad-client", "ca-pub-7391945618852590");
-          document.head.appendChild(newScript);
-          Function(newScript);
-          
-        }
+          try {
+            document.head.appendChild(newScript);
+            Function(newScript);
+          } catch (error) {
+            console.log("Aún estamos configurando nuestras cookies. Tenganos paciencia.");
+          }
+        };
         `}
       </script>
     </Helmet>
